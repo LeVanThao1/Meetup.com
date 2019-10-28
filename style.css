@@ -1,0 +1,36 @@
+
+* {
+	/* margin: 0; */
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	/* display: flex; */
+	margin: 20px 10px;
+	font-size: 18px;
+}
+
+header > .logo {
+	float: left;
+}
+.active {
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+	color: #000099;
+	font-weight: 600;
+}
+
+header > .header-left {
+	float : right;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+header > .header-left > .item:hover {
+	color: #0000EE;
+}
