@@ -70,3 +70,27 @@ header > .header-left > .item:hover {
 .btn-join:hover {
 	background: #e81035;
 }
+
+.menu {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+	margin-left: 20%;
+	margin-left: 20%;
+}
+.menu > ul {
+	display: block;
+	list-style: none;
+}
+
+.menu > ul > li {
+	float: left;
+	margin-right: 20px;
+	padding: 5px 10px;
+	background: #EEE;
+	border: 1px solid #AAA;
+	border-radius: 4px;
+}
+.menu > ul > li:hover {
+	border: 1px solid #777;
+}
