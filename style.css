@@ -96,7 +96,8 @@ header > .header-left > .item:hover {
 	border: 1px solid #777;
 }
 .list-event {
-	margin: 30px 15%;
+	margin: 0px 15%;
+	padding: 30px 0px;
 }
 .list-event > .title {
 	float: left;
@@ -131,7 +132,7 @@ header > .header-left > .item:hover {
 	border-radius: 5px;
 	box-shadow: 0px 0px 8px #666;
 	width: 35%;
-	transition: all 1s;
+	transition: all 0.5s;
 
 }
 .event > a {
@@ -185,5 +186,30 @@ header > .header-left > .item:hover {
 	color: white;
 }
 .event:hover {
-	top: -5px;
+	transform: translateY(-7px);
+}
+.list-group {
+	margin: 20px 15%;
+}
+.list-group > .title {
+	float: left;
+}
+.list-group > .title h3{
+	font-size: 1.5em;
+	color: black;
+	margin-bottom: 5px;
+}
+.list-group > .title p {
+	font-size: 1em;
+	color: #333;
+}
+.list-group > .see-all {
+	float: right;
+	color: #00D;
+	font-weight: bold;
+	font-size: 1em;
+}
+.list-group > .see-all > a{
+	list-style: none;
+	text-decoration: none;
 }
