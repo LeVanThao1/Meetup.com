@@ -51,7 +51,7 @@ header > .header-left  .item:hover {
 .content-banner {
 	position: absolute;
 	top: 160px;
-	left:  215px;
+	left: 310px;
 	color: #FFF;
 	text-align: center;
 	font-size: 20px;
@@ -71,7 +71,7 @@ header > .header-left  .item:hover {
 	font-weight: bold;
 	border: none;
 	top: 278px;
-	left: 551px;
+	left: 545px;
 }
 
 .btn-join:hover {
